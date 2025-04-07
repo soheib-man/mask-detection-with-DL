@@ -49,7 +49,11 @@ We implement the project using:
 - **test_accuracy**:  0.979345977306366
 - **Memory consumption** : 0 bytes
 ## **Using the Saved Model**
+
 Once trained, the model is saved as a `.keras` file. To reuse it:
 ```python
 from tensorflow.keras.models import load_model
 model = load_model("mask_detector.keras")
+```
+example : 
+![image](https://github.com/user-attachments/assets/69eae722-0e96-4997-ab28-54b43e1b7f66)
